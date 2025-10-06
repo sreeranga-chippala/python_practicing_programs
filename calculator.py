@@ -1,12 +1,11 @@
 a = int(input("enter the first number:"))
 b = int(input("enter the second number:"))
-option = input("enter the correct option:")
+option = input("enter the correct option(add,sub,product,division):")
 
-add = a+b
+add=a+b
 sub=a-b
 product=a*b
 division=a/b
-
 if option == "add":
    print("result:", add)
 elif option == "sub":
