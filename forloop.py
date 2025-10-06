@@ -1,8 +1,4 @@
-a=int(input("enter the number:"))
 
-for i in range(1,11):
-    the=a*i
-    print(f"{a}*{i}={the}\n")
 
 # The factorial reccursion #
 
@@ -12,4 +8,4 @@ fact=1
 for i in range(b):
     i+=1
     fact=fact*i
-print(fact)
+print("The factorial of given number : ",fact)
